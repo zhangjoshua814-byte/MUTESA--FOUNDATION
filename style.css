@@ -1,0 +1,308 @@
+body{
+    font-family: arial;background-color: #f2f8f2;
+    margin: 0;
+}
+h1 {
+    color: darkgreen;
+}
+h2 {
+    color: darkgreen;
+}
+p {
+    font-size: 16px;
+}
+nav a {
+    background-color: darkgreen;padding: 15px;text-align: center;
+}
+nav a {
+    color: white;text-decoration: none;margin: 15px;font-weight: bold;
+}
+nav a:hover {
+    color: yellow;
+}
+img {
+    max-width: 100%;
+}
+table {
+    border-collapse: collapse;
+}
+th {
+    background-color: darkgreen;color: white;padding: 10px;
+}
+td {
+    padding: 10px;
+}
+.welcome {
+    text-align: center;padding: 60px 20px;background-color: lightgreen;
+}
+.welcome h2 {
+    font-size: 35px;color: darkgreen;
+}
+.welcome p {
+    font-size: 18px;
+}
+.button {
+    display: inline-block;background-color: darkgreen;color: white;padding: 12px 25px;text-decoration: none;border-radius: 5px;
+}
+.button:hover {
+    background-color: green;
+}
+.programs {
+    text-align: center;padding: 50px 20px;
+}
+.program-box {
+    display: flex;justify-content: center;gap: 20px;
+    flex-wrap: wrap;
+}
+.program-box div {
+    background-color:white ;width: 250px;padding: 25px;border: 1px solid #ddd;border-radius: 10px;
+}
+.program-box h3 {
+    color: darkgreen;
+}
+.program-box div:hover {
+    transform: translateY(-5px);
+}
+.projects {text-align: center;padding: 50px 20px;}
+.project-box {
+    display: flex;justify-content: center;gap: 20px;flex-wrap: wrap;
+}
+.program-box div {
+    background-color: white;width: 250px;padding: 20px;border-radius: 10px;border: 1px solid #ddd;
+}
+.project-box img {
+    width: 100%;height: 160px;object-fit: cover;border-radius: 8px;
+}
+.project-box .button{
+    margin-top: 10px;
+}
+.project-page {
+    text-align: center;padding: 50px 20px;
+}
+.project-page> p {
+    max-width: 700px;margin: auto;margin-bottom:30px;font-size: 18px;
+}
+.about-page {
+    max-width: 900px;margin: auto;padding: 50px 20px;text-align: center;
+}
+.about-page p {
+    line-height: 1.7;font-family: 17px;
+}
+.about-page ul {
+    list-style: none;padding: 0;
+}
+.about-page li {
+    background-color: white;margin: 10px auto;padding: 12px;max-width: 400px;border-radius: 5px;
+}
+.gallery-page {
+    text-align: center;padding:50px 20px;
+}
+.gallery {
+    display: flex;justify-content: center;gap: 20px;flex-wrap: wrap;margin-top: 30px;
+}
+.gallery img {
+    width: 280px;height: 200px;object-fit: cover;border-radius: 10px;border: 2px solid #ddd;
+}
+.gallery img:hover {
+    transform: scale(1.05);
+}
+.donate-page {
+    text-align: center;padding: 50px 20px;
+}
+.donate-box>p {
+    font-size: 18px;height: 1.6;
+}
+.donate-box{
+    background-color: white;max-width: 500px;margin: 30px auto;padding: 30px;border-radius: 10px;border: 1px solid #ddd;
+}
+.donate-box h3 {
+    color: darkgreen;
+}
+.donate-box p {
+    font-size: 17px;padding: 5px;
+}
+.contact-page {
+    text-align: center;padding: 50px 20px;
+}
+.contact-info {
+    background-color: white;max-width: 500px;margin: 30px auto;padding: 25px;border-radius: 10px;border: 1px solid #ddd;
+}
+.contact-info h3 {
+    color: darkgreen;
+}
+form {
+    max-width: 600px;margin: 20px auto;
+}
+form input, form textarea {
+    width: 100%;padding: 12px;margin: 10px 0;box-sizing: border-box;border: 1px solid #cc;border-radius: 5px
+}
+form button {
+    background-color: darkgreen;color: white;border: none;padding: 12px 25px;border-radius: 5px;cursor: pointer;
+}
+form button:hover {background-color: green;}
+footer {
+    background-color: darkgreen;color: white; text-align: center;padding: 30px 20px;margin-top: 40px;
+}
+footer h3 {
+    font-size: 22px;margin-bottom: 10px;
+}
+footer p{margin: 8px;}
+
+nav {padding: 10px;}
+
+nav a {display: block;margin: 8px;}
+
+header img {width: 120px;}
+
+h1{font-size: 28px;}
+
+.welcome {padding: 40px 15px;}
+
+.welcome h2 {font-size: 28px;}
+
+.program-box,
+.project-box,
+.gallery{flex-direction: column;align-items: center;}
+
+.program-box div,
+.project-box div {width: 85%;}
+
+.gallery img {width: 90%;height: auto;}
+
+.contact-page,
+.about-page,
+.donate-page{padding: 30px 15px;}
+
+.hero {text-align: center;padding: 70px 20px;background-color: lightgreen;}
+.hero img {width: 180px;margin-bottom: 20px;}
+.hero h2 {color: darkgreen;font-size: 36px;margin: 10px;}
+.hero p {font-size: 19px;max-width: 650px;margin: 20px auto;line-height: 1.6;}
+.hero.button{margin-top: 10px;}
+.social-links{
+    margin-top: 15px;
+}
+.social-links a {
+    color: white;text-decoration: none;margin: 0 10px;font-weight: bold;
+}
+.social-links a:hover {
+    color: yellow;
+}
+nav {
+    display: flex;justify-content: center;align-items: center;flex-wrap: wrap;gap: 5px;
+}
+nav a {
+    margin: 5px 10px;padding: 8px 12px;border-radius: 5px;
+}
+nav a:hover{
+    background-color: green;color: wheat;
+}
+.donate-button {
+    display: inline-block;background-color: goldenrod;color: white;padding: 12px 25px;margin: 10px;text-decoration: none;border-radius: 5px;font-weight: bold;
+}
+.donate-button:hover{
+    background-color: darkorange;
+}
+.impact {
+    text-align: center;padding: 50px 20px;background-color: white;
+}
+.impact-box {
+    display: flex;justify-content: center;gap: 30px;flex-wrap: wrap;
+}
+.impact-box div {
+    width: 200px;padding: 20px;border-radius: 1opx;border: 1px solid #ddd;
+}
+.impact-box h3 {
+    font-size: 32px;color: darkgreen;margin: 5px;
+}
+.impact-box p {
+    font-size: 16px;
+}
+.why-us{
+    text-align: center;padding: 50px 20px;background-color: lightgreen;
+}
+.why-us{
+    display: flex;justify-content: center;gap: 20px;flex-wrap: wrap;
+}
+.why-us div {
+    background-color: white;padding: 25px;border-radius: 10px;border: 1px solid #ddd;
+}
+.why-us h3 {
+    color: darkgreen;
+}
+.cta {
+    text-align: center;padding: 60px 20px;border: darkgreen;color: white;
+}
+.cta h2{
+    color: white;font-size: 32px;
+}
+.cta p {
+    font-size: 18px;max-width: 650px;margin: 20px auto;line-height: 1.6;
+}
+.cta .button{
+    margin: 10px;
+}
+.cta .donate-button{
+    margin: 10px;
+}
+header {
+    text-align: center;padding: 20px;
+}
+header h1{
+    margin: 10px 0 20px;
+}
+nav{
+    box-shadow: 0 2px 5px rgba(0,0,0, 0);
+}
+button
+.button
+.donate-button{
+    transition: 0.3s;
+}
+.button:hover,
+.donate-button:hover{
+    transform: translate(-2px);
+}
+section h2 {
+    margin-bottom: 20px;
+}
+section{
+box-sizing:border-box}
+p {line-height: 1.6;}
+.button
+.donate-button{cursor: pointer;}
+form label{
+    display: block;text-align: left;font-weight: bold;margin: 10px;
+}
+form button{
+    font-size: 16px;
+}
+.whatsapp-button{
+    display: inline-block;background-color: #25D366;color: white;padding: 12PX 25PX;margin: 10PX;text-decoration: none;border-radius: 5px;font-weight: bold;
+}
+.whatsapp-button :hover{
+    background-color: #128C7E;
+}
+.location {
+    text-align: center;padding: 30px 20px;
+}
+.location p{
+    font-size: 17px;line-height: 1.8;
+}
+.map-section{
+    text-align: center;padding: 40px 20px;
+}
+.map-section iframe{
+    max-width: 900px;
+    border-radius: 10px;
+}
+header {
+    background-color: white;text-align: center;padding-top: 20px;border-bottom: 1px solid #ddd;
+}
+header img {
+    display: block;
+    width: 120px;
+    height: auto;
+    margin: 0 auto 10px;
+}
+header h1 {
+    margin: 10px 0 20px;}
